@@ -13,6 +13,8 @@ gem "mysql2", "~> 0.4.4"
 gem "bcrypt"
 gem "sprockets-rails", :require => "sprockets/railtie"
 gem "bootstrap-sass", "~> 3.3.6"
+gem "doorkeeper"
+gem "active_model_serializers", "~> 0.10.0"
 
 group :development, :test do
   gem "byebug", platform: :mri
